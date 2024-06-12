@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/007/153/281/non_2x/abstract-black-background-with-diagonal-lines-modern-dark-abstract-texture-design-for-presentations-or-business-free-vector.jpg");
+  background-repeat: repeat;
+}
+.titulo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  display: block;
+  background-color: white;
+}
+
+.generador {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 600px 90%;
+  padding: 20px;
+  margin: 10%;
+  font-size: xx-large;
+  background-color: white;
+  display: block;
+  border-radius: 15px;
+}
+.pulgar {
+  background-repeat: repeat;
+}
+#botonresultado {
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;
+}
+#botonresultado:active {
+  background-color: steelblue;
+  color: white;
+}
